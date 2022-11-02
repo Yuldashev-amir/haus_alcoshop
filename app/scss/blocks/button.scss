@@ -1,0 +1,48 @@
+.btn__transparent {
+    width: 140px;
+    height: 44px;
+    background-color: #996B60;
+    border: 2px solid #fff;
+    margin-left: 80px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+        :hover {
+            text-decoration: underline;
+            color: #fff;
+            background-color: #000;
+    }
+}
+
+.about__button {
+    background-color: #000;
+    width: 140px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 3px;
+
+    font-size: 12px;
+    color: #fff;
+
+
+    :hover {
+        text-decoration: underline;
+        color: #fff;
+}
+}
+
+.catalog__button {
+    background-color: #fff;
+    text-decoration: none;
+    width: 100%;
+    max-width: 140px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #000;
+    margin: 2rem;
+
+}

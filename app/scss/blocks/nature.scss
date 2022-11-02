@@ -1,0 +1,49 @@
+.nature {
+    padding-top: 18rem;
+}
+
+.nature__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nature__content {
+    margin-right: 45px;
+}
+.nature__title {
+    font-size: 3.4rem;
+    color: #000;
+    padding-bottom: 1rem;
+}
+
+.nature__text {
+    font-size: 1.8rem;
+    color: #000;
+    padding-bottom: 3rem;
+    text-align: justify;
+
+}
+
+.nature__link {
+    color: #000;
+    a {
+        font-size: 1.8rem;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        }
+
+    & + & {
+        margin-left: 6rem;
+        }
+
+
+    :hover {
+        text-decoration: underline;
+        color: gray;
+}
+}
+
+.nature__banner {
+    margin-right: 3rem;
+}

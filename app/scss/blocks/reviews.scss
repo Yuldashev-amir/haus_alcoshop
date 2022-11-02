@@ -1,0 +1,40 @@
+.reviews {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+.reviews__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item {
+    margin-left: 50px;
+
+    :first-child p {
+        margin-left: 0;
+    }
+
+    :last-child p {
+        margin-left: 0;
+    }
+}
+
+.reviews__text {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: justify;
+    width: 31rem;
+
+}
+
+.reviews__name {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.review__meaning {
+    font-size: 1.6rem;
+    color: #8A8A8A;
+}

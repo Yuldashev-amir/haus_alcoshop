@@ -1,0 +1,41 @@
+@import "vars";
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a  {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+// $ echo 'node_modules' > .gitignore создание файла гит игнор
+
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/intro";
+@import "blocks/button";
+@import "blocks/promo";
+@import "blocks/about";
+@import "blocks/offer";
+@import "blocks/reviews";
+@import "blocks/nature";
+@import "blocks/catalog";
+@import "blocks/footer";
